@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Inventory Management System (Next.js)
 
-## Getting Started
+This is a web-based **Inventory Management System** built using **Next.js**. It streamlines inventory tracking, automates reorder processes, and generates insightful reports. Originally designed for a business that previously used a manual notebook-based system, this application brings efficiency, accuracy, and scalability to inventory operations.
 
-First, run the development server:
+## 🚀 Getting Started
+
+To start the development server:
 
 ```bash
 npm run dev
@@ -12,25 +14,75 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+Open http://localhost:3000 in your browser to view the application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📁 Project Structure
+This project uses the App Router from Next.js 13+, with the main entry point at:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+bash
+Copy
+Edit
+app/page.tsx
+You can start editing the application by modifying this file. Changes are automatically reflected in the browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🖋️ Font
+This project uses next/font for automatic optimization and includes Geist, a modern and clean font family by Vercel.
 
-## Learn More
+✨ Features
+🔐 Role-based login (admin & user)
 
-To learn more about Next.js, take a look at the following resources:
+📦 Stock management (inward/outward)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔄 Automated reorder alerts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📈 Sales and purchase tracking
 
-## Deploy on Vercel
+📊 Graphical reporting and PDF exports
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🧑‍🤝‍🧑 Supplier and customer modules
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🧪 Testing
+This project includes:
+
+✅ Unit Testing
+
+🔁 Integration Testing
+
+🔍 User Acceptance Testing
+
+Optional: Automated testing can be integrated using Selenium or Playwright.
+
+🧰 Technologies Used
+Frontend: Next.js, React, HTML, CSS, JavaScript/TypeScript
+
+Backend: API routes with Node.js (if applicable)
+
+Database: MySQL or PostgreSQL (via Prisma or other ORMs)
+
+Styling: Tailwind CSS or custom CSS modules (optional)
+
+Deployment: Vercel
+
+📦 Deployment
+The easiest way to deploy your app is through Vercel — the platform from the creators of Next.js.
+
+bash
+Copy
+Edit
+# Production build
+npm run build
+npm start
+Check the Next.js Deployment Documentation for detailed instructions.
+
+📚 Learn More
+Next.js Documentation – learn about Next.js features & API
+
+Interactive Next.js Tutorial – step-by-step guide to building apps
+
+Next.js GitHub Repository – contribute or explore the source
+
+🤝 Contributing
+Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your changes.
+
+📄 License
+This project is licensed under the MIT License.
